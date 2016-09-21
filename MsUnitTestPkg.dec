@@ -1,0 +1,46 @@
+## @file  MsUnitTestPkg.dec
+#
+# This Package provides all definitions(including functions, MACROs, structures and library classes)
+# and libraries instances, which are used to support Unit Testing and Interface testing
+#
+#    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+#    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+#    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+#    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+#    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+#    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+#    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+#    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+#    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+#    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+#    THE POSSIBILITY OF SUCH DAMAGE.
+#
+#    
+#    Copyright (C) 2016 Microsoft Corporation. All Rights Reserved.
+##
+
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = MsUnitTestPkg
+  PACKAGE_GUID                   = 4A70C4A0-D72C-4D3F-9943-BE7C41C50BA3
+  PACKAGE_VERSION                = 1.00
+
+
+[Includes]
+  Include
+
+[LibraryClasses]
+
+[Guids]
+
+[Ppis]
+
+[Protocols]
+
+[PcdsFeatureFlag]
+
+[PcdsDynamic, PcdsDynamicEx]
+
+[PcdsFixedAtBuild]
+  
